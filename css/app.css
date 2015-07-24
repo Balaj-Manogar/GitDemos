@@ -1,1 +1,48 @@
 /* main css file */
+
+@media(min-width: 1300px)
+{
+  .container{width:1300px; border: solid 1px #f00;}
+  .sideBar{border: solid 1px #eae; height: 800px;}
+  .lavendarColor{background-color: #e5e9ec;}
+  .trendingHeadingHolder{border-bottom: solid 1px #aaa;}
+  .trendingHeading{margin-top: 10px;margin-bottom: 10px;}
+
+  .leftContent{border: solid 1px #0f0;}
+  .no-gutter > [class*='col-'], .no-gutter {padding-right:0; padding-left:0;}
+  .no-gutter-left > [class*='col-'], .no-gutter-left {padding-left:0;}
+  .padRight10{padding-right: 10px;}
+  .trendingArtHolder > div{border-right: solid 1px #aaa; margin-bottom: 5px;}
+  .trendingArtHolder > div:last-child{border: none;}
+
+
+  .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer15 { height: 15px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer25 { height: 25px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer30 { height: 30px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer35 { height: 35px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer40 { height: 40px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+  .spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+}
+
+
+
+@media(min-width: 320px) and (max-width:1299px)
+{
+  .test{}
+  .xs-reset-spacing{margin: 0; padding: 0;}
+}
+
+
+.no-gutter > [class*='col-'], .no-gutter {padding-right:0; padding-left:0;}
+.no-gutter-left > [class*='col-'], .no-gutter-left {padding-left:0;}
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-inner .prev		 { left: -25%; }
+.carousel-control 			 { width:  100%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
