@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* main css file */
 
 @media(min-width: 1300px)
@@ -46,3 +47,15 @@
 .carousel-inner .prev		 { left: -25%; }
 .carousel-control 			 { width:  100%; }
 .carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+=======
+body
+{
+  color: #08329f;
+  background-color: #eee;
+}
+
+p
+{
+  color: #553f06;
+}
+>>>>>>> 1110ebec2136632fca9dbd4596c77005a803d915
