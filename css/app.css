@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* main css file */
 
 @media(min-width: 1300px)
@@ -42,20 +42,9 @@
 
 .no-gutter > [class*='col-'], .no-gutter {padding-right:0; padding-left:0;}
 .no-gutter-left > [class*='col-'], .no-gutter-left {padding-left:0;}
-.carousel-inner .active.left { left: -25%; }
-.carousel-inner .next        { left:  25%; }
-.carousel-inner .prev		 { left: -25%; }
-.carousel-control 			 { width:  100%; }
-.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
-=======
-body
-{
-  color: #08329f;
-  background-color: #eee;
-}
 
-p
-{
-  color: #553f06;
-}
->>>>>>> 1110ebec2136632fca9dbd4596c77005a803d915
+/* Carousel */
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}

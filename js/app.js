@@ -5,13 +5,14 @@ var b = 20;
 
 $(document).ready(function()
 {
+
   $('.testC').carousel();
-  $('.testC .item').each(function(){
+$('.testC .item').each(function(){
   var next = $(this).next();
   if (!next.length) {
     next = $(this).siblings(':first');
   }
-  next.children(':first-child').clone().appendTo($(this));
+  //next.children(':first-child').clone().appendTo($(this));
 
   for (var i=0;i<2;i++) {
     next=next.next();
@@ -22,4 +23,5 @@ $(document).ready(function()
     next.children(':first-child').clone().appendTo($(this));
   }
 });
+
 });
