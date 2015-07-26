@@ -33,18 +33,23 @@
 
 
 
-@media(min-width: 320px) and (max-width:1299px)
+@media(min-width: 320px)
 {
   .test{}
   .xs-reset-spacing{margin: 0; padding: 0;}
+  .xs-reset-padding{padding: 0;}
 }
 
 
 .no-gutter > [class*='col-'], .no-gutter {padding-right:0; padding-left:0;}
 .no-gutter-left > [class*='col-'], .no-gutter-left {padding-left:0;}
 
+
 /* Carousel */
-.carousel-inner .active.left { left: -33%; }
-.carousel-inner .next        { left:  33%; }
-.carousel-inner .prev        { left: -33%; }
-.carousel-control.left,.carousel-control.right {background-image:none;}
+.jCarouselWrapper{width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+
+    .jCarouselWrapper li{float: left;}
